@@ -1,8 +1,1 @@
-import random
-
-player_roll = random.randint(1, 13)
-computer_roll = random.randint(1, 13)
-
-print("You rolled:", player_roll)
-print("Computer rolled:", computer_roll) 
-
+This simple Python program simulates a dice roll between the player and the computer. Both the player and the computer roll a 13-sided die, and the program outputs the results of each roll. The player and computer rolls are randomly generated using Python's random.randint() function, which generates an integer between 1 and 13.
